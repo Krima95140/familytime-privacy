@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Politique de confidentialité de FamilyTime, application Android d'agenda familial.">
+  <title>Politique de confidentialité — FamilyTime</title>
+  <style>
+    :root { color-scheme: light; --ink:#1f2937; --muted:#5b6472; --accent:#365b8c; --line:#e5e7eb; --paper:#fff; --bg:#f4f6f9; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { max-width:900px; margin:40px auto; padding:42px; background:var(--paper); border:1px solid var(--line); border-radius:18px; box-shadow:0 8px 30px rgba(15,23,42,.06); }
+    h1,h2 { line-height:1.25; }
+    h1 { font-size:clamp(2rem,5vw,2.8rem); margin:.2em 0 .35em; }
+    h2 { font-size:1.35rem; margin:2em 0 .55em; }
+    p,li { color:#303846; }
+    .intro,.meta { color:var(--muted); }
+    .meta { font-size:.92rem; }
+    a { color:var(--accent); overflow-wrap:anywhere; }
+    .notice { padding:14px 16px; background:#f7f9fc; border-left:4px solid var(--accent); border-radius:8px; }
+    footer { margin-top:3em; padding-top:1.2em; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+    @media (max-width:600px) { main { margin:0; padding:24px 18px; border:0; border-radius:0; } }
+  </style>
+</head>
+<body>
+<main>
+  <p class="meta">Dernière mise à jour : 11 octobre 2026</p>
+  <h1>Politique de confidentialité de FamilyTime</h1>
+  <p class="intro">Cette politique décrit les données que l’application Android FamilyTime utilise, pourquoi elle les utilise et les choix dont vous disposez.</p>
+
+  <p class="notice"><strong>À lire :</strong> cette politique est rédigée à partir de la structure du projet et des extraits de code examinés. Elle doit être vérifiée à nouveau avant publication si le code, les bibliothèques, les pratiques de sauvegarde ou les fonctionnalités changent.</p>
+
+  <h2>1. Responsable et contact</h2>
+  <p>Pour toute question relative à cette politique ou à vos données, contactez : <a href="mailto:etevelles@gmail.com">etevelles@gmail.com</a>.</p>
+  <p>Cette adresse est le contact fourni pour FamilyTime. Les informations légales relatives à l’éditeur doivent être complétées si elles sont nécessaires au regard de votre situation et des règles applicables.</p>
+
+  <h2>2. Données utilisées par l’application</h2>
+  <p>Selon les fonctionnalités utilisées et les autorisations accordées, FamilyTime peut accéder ou traiter les catégories suivantes :</p>
+  <ul>
+    <li><strong>Données du calendrier :</strong> identifiant et nom du calendrier, informations de compte associées au calendrier, titre, description, lieu, dates et heures des événements, ainsi que l’indication d’événement sur toute la journée.</li>
+    <li><strong>Informations sur les personnes :</strong> prénoms, numéros de téléphone éventuellement saisis, indication qu’une personne est un membre de la famille et couleur choisie dans l’application.</li>
+    <li><strong>Préférences :</strong> choix du calendrier, activation des notifications et heure du récapitulatif quotidien.</li>
+    <li><strong>Pièces jointes :</strong> fichiers que vous choisissez d’ajouter à un événement et leurs noms de fichiers. L’application copie ces fichiers dans son stockage interne privé et conserve une référence à leur nom dans la description de l’événement.</li>
+    <li><strong>Lieu :</strong> texte du lieu associé à un événement, que vous pouvez choisir d’ouvrir dans une application de cartographie.</li>
+  </ul>
+
+  <h2>3. Pourquoi ces données sont utilisées</h2>
+  <ul>
+    <li>Afficher les calendriers disponibles et les événements du calendrier sélectionné.</li>
+    <li>Créer, modifier et supprimer des événements dans le calendrier sélectionné.</li>
+    <li>Associer des personnes, des notes et des pièces jointes aux événements.</li>
+    <li>Enregistrer vos préférences et programmer le récapitulatif des rendez-vous du lendemain.</li>
+    <li>Vous permettre d’ouvrir le lieu d’un événement dans une application de cartographie compatible.</li>
+  </ul>
+
+  <h2>4. Stockage et partage</h2>
+  <p>Les préférences FamilyTime examinées sont enregistrées dans les préférences privées de l’application Android. Les pièces jointes choisies sont copiées dans le stockage interne privé de l’application. Les événements sont lus et écrits au moyen du fournisseur de calendrier Android (<code>CalendarContract</code>), et non dans une base de données propre à FamilyTime dans le code examiné.</p>
+  <p>Le calendrier Android peut être synchronisé par le système ou par le fournisseur de calendrier configuré sur votre appareil, par exemple avec un compte en ligne. Cette synchronisation relève des paramètres et services de calendrier que vous utilisez. FamilyTime ne contrôle pas les pratiques de confidentialité de ces fournisseurs.</p>
+  <p>Lorsque vous choisissez d’ouvrir un lieu dans une application de cartographie, le texte de recherche du lieu peut être transmis à l’application ou au service externe que vous utilisez. Consultez la politique de confidentialité de ce service pour en savoir plus.</p>
+  <p>Les extraits de code examinés ne montrent pas d’envoi des données vers un serveur FamilyTime. Toutefois, cette observation ne constitue pas une garantie sur l’intégralité de l’application ou sur toutes les bibliothèques intégrées : le projet complet et ses dépendances doivent être vérifiés avant de déclarer qu’aucune donnée n’est transmise à des tiers.</p>
+
+  <h2>5. Notifications</h2>
+  <p>Si vous activez cette fonctionnalité et accordez les autorisations requises par Android, FamilyTime programme une alarme locale et peut afficher un récapitulatif des rendez-vous du lendemain. Le contenu détaillé peut inclure des horaires, des prénoms, des titres de rendez-vous et des lieux. Selon les réglages de votre appareil, ces informations peuvent apparaître sur l’écran verrouillé. Vous pouvez gérer les autorisations et l’affichage des notifications dans les paramètres Android.</p>
+
+  <h2>6. Autorisations Android</h2>
+  <ul>
+    <li><code>READ_CALENDAR</code> : lire les calendriers et événements.</li>
+    <li><code>WRITE_CALENDAR</code> : créer, modifier ou supprimer des événements.</li>
+    <li><code>POST_NOTIFICATIONS</code> : afficher des notifications sur les versions Android concernées.</li>
+    <li><code>SCHEDULE_EXACT_ALARM</code> et <code>USE_EXACT_ALARM</code> : déclarer et programmer des alarmes exactes lorsque le système et les autorisations le permettent.</li>
+  </ul>
+  <p>Vous pouvez gérer les autorisations dans les paramètres de votre appareil. Le refus d’une autorisation peut empêcher certaines fonctionnalités de fonctionner.</p>
+
+  <h2>7. Conservation et suppression</h2>
+  <p>Les événements restent dans le calendrier Android jusqu’à ce qu’ils soient modifiés ou supprimés par vous ou par une autre application ou un service ayant accès à ce calendrier. Les préférences FamilyTime restent enregistrées sur l’appareil jusqu’à leur modification ou à la suppression des données de l’application, sous réserve des mécanismes de sauvegarde ou de transfert Android configurés.</p>
+  <p>Lorsqu’un événement est supprimé par FamilyTime, le code examiné tente également de supprimer les fichiers référencés par cet événement. Les fichiers qui ne sont plus référencés après une modification peuvent toutefois rester dans le stockage interne. Vous pouvez supprimer les données de l’application depuis les paramètres Android pour effacer ses données locales, mais cela ne supprime pas nécessairement les événements déjà synchronisés dans un calendrier en ligne.</p>
+
+  <h2>8. Sauvegarde et transfert de l’appareil</h2>
+  <p>La configuration de sauvegarde fournie ne contient pas de règles actives d’inclusion ou d’exclusion. Par conséquent, cette politique ne garantit pas que toutes les données de l’application soient exclues des sauvegardes Android ou des transferts entre appareils. Le comportement dépend notamment de la configuration de sauvegarde effectivement intégrée à l’application et des paramètres Android. Cette section doit être mise à jour si des règles de sauvegarde sont modifiées.</p>
+
+  <h2>9. Sécurité</h2>
+  <p>FamilyTime utilise le stockage interne privé d’Android pour les préférences et les pièces jointes examinées. Aucun système n’offre une sécurité absolue. Protégez votre appareil par un verrouillage d’écran et gardez Android à jour. L’accès aux calendriers dépend également des permissions et de la sécurité de votre appareil et de votre compte de calendrier.</p>
+
+  <h2>10. Enfants et données de tiers</h2>
+  <p>FamilyTime est un agenda familial qui peut contenir des informations concernant d’autres personnes, y compris des enfants. N’ajoutez que les informations nécessaires et assurez-vous d’être autorisé à les saisir. Si vous êtes parent ou tuteur, tenez compte de l’âge des personnes concernées et des règles applicables à leur situation.</p>
+
+  <h2>11. Vos choix et vos droits</h2>
+  <p>Vous pouvez gérer les autorisations Android, modifier ou supprimer les personnes et événements concernés, désactiver les notifications et supprimer les données locales de l’application depuis les paramètres Android. Selon votre lieu de résidence, vous pouvez disposer de droits supplémentaires concernant vos données personnelles, notamment d’accès, de rectification, d’effacement ou d’opposition. Pour exercer une demande ou poser une question, contactez <a href="mailto:etevelles@gmail.com">etevelles@gmail.com</a>.</p>
+
+  <h2>12. Modifications de cette politique</h2>
+  <p>Cette politique peut être mise à jour lorsque les fonctionnalités, les dépendances ou les obligations applicables changent. La date de mise à jour figurant en haut de la page indique la version actuellement publiée.</p>
+
+  <footer>
+    <p>FamilyTime — Politique de confidentialité. Contact : <a href="mailto:estevelles@gmail.com">etevelles@gmail.com</a>.</p>
+  </footer>
+</main>
+</body>
+</html>
